@@ -14,7 +14,7 @@ end
 
 class Plant
   attr_accessor :garden, :name
-
+ 
   @@all = []
 
   def initialize(name:)
